@@ -1,0 +1,17 @@
+<%= render 'shared/error_messages', :object => f.object%>
+<div class="field">
+  <%= fvarforpartial.label :name %><br/>
+  <%= fvarforpartial.text_field :name %>
+</div>
+<div class="field">
+  <%= fvarforpartial.label :email %><br/>
+  <%= fvarforpartial.text_field :email %>
+</div>
+<div class="field">
+  <%= fvarforpartial.label :password %><br/>
+  <%= fvarforpartial.password_field :password %>
+</div>
+<div class="field">
+  <%= fvarforpartial.label :password_confirmation, "Re-enter Password" %><br/>
+  <%= fvarforpartial.password_field :password_confirmation %>
+</div>
