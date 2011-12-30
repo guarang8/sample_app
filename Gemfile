@@ -9,11 +9,12 @@ gem 'rails', '3.0.9'
 gem 'gravatar_image_tag', '1.0.0'
 gem "will_paginate", "~> 3.0.pre4"
 gem 'thin'
-gem 'pg'
 
 
-group :development,:production do
+
+group :development do
   gem "rspec-rails", "~> 2.6"
+  gem 'mysql', '~> 2.8.1'
   gem 'webrat', '0.7.3'
   gem 'autotest', '4.4.6'
   gem 'autotest-standalone', :require => 'autotest'
@@ -34,6 +35,10 @@ group :test do
   gem 'spork', '~> 0.8.5'
   gem 'watchr', '~> 0.7'
   gem 'factory_girl_rails', '1.1.0'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Use unicorn as the web server
