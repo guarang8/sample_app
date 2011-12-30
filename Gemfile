@@ -11,7 +11,7 @@ gem "will_paginate", "~> 3.0.pre4"
 gem 'thin'
 
 
-group :development do
+group :development,:production do
   gem "rspec-rails", "~> 2.6"
   gem 'webrat', '0.7.3'
   gem 'autotest', '4.4.6'
