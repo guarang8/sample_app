@@ -34,6 +34,7 @@ production:
   reconnect: false
   database: sample_app_production
   pool: 5
-  username: root
-  password:
+  username: sample_app
+  password: gauranga
   socket: /var/run/mysqld/mysqld.sock
+

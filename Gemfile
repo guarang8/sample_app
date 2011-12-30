@@ -13,6 +13,7 @@ gem 'thin'
 
 group :development,:production do
   gem "rspec-rails", "~> 2.6"
+  gem 'pg'
   gem 'webrat', '0.7.3'
   gem 'autotest', '4.4.6'
   gem 'autotest-standalone', :require => 'autotest'
