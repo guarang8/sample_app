@@ -5,15 +5,15 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql', '~> 2.8.1'
+#gem 'mysql', '~> 2.8.1'
 gem 'gravatar_image_tag', '1.0.0'
 gem "will_paginate", "~> 3.0.pre4"
 gem 'thin'
+gem 'pg'
 
 
 group :development,:production do
   gem "rspec-rails", "~> 2.6"
-  gem 'pg'
   gem 'webrat', '0.7.3'
   gem 'autotest', '4.4.6'
   gem 'autotest-standalone', :require => 'autotest'
